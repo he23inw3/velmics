@@ -1,0 +1,738 @@
+{
+  "2": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://www.toei-anim.co.jp/tv/GB/",
+        "amazon": "https://www.amazon.co.jp/gp/video/detail/B01N6E86V9/",
+        "netflix": "https://www.netflix.com/jp/title/70308350"
+      }
+    },
+    "movie": null,
+    "game": null,
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "金色のガッシュベル！！チキチキガッシュベル 全７種",
+            "manufacturer": "BANDAI",
+            "releaseDate": "2024-02-15",
+            "price": 3280,
+            "image": "https://m.media-amazon.com/images/I/51OrDMzo3AL._AC_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%83%90%E3%83%B3%E3%83%80%E3%82%A4-BANDAI-as000826-%E9%87%91%E8%89%B2%E3%81%AE%E3%82%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%99%E3%83%AB%EF%BC%81%EF%BC%81%E3%83%81%E3%82%AD%E3%83%81%E3%82%AD%E3%82%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%99%E3%83%AB-%E5%85%A8%EF%BC%97%E7%A8%AE/dp/B0757G2F2S/"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "金色のガッシュベル!! Blu-ray BOX",
+            "category": "Blu-ray",
+            "price": 29800,
+            "image": "https://m.media-amazon.com/images/I/81RdFQf-T2L.__AC_SX300_SY300_QL70_ML2_.jpg",
+            "link": "https://www.amazon.co.jp/%E9%87%91%E8%89%B2%E3%81%AE%E3%82%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%99%E3%83%AB-Blu-ray-BOX-%E5%A4%A7%E8%B0%B7%E8%82%B2%E6%B1%9F/dp/B01J2ZML3W/"
+          }
+        ]
+      }
+    }
+  },
+  "3": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://kotaro-anime.com/",
+        "amazon": null,
+        "netflix": "https://www.netflix.com/jp/title/81275353"
+      }
+    },
+    "movie": {
+      "available": true,
+      "links": {
+        "official": "https://www.tv-asahi.co.jp/kotaro/"
+      }
+    },
+    "game": null,
+    "merchandise": null
+  },
+  "5": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://www.b-ch.com/titles/3294/",
+        "amazon": "https://www.amazon.co.jp/gp/video/detail/B0B5Z17FZF/",
+        "netflix": null
+      }
+    },
+    "movie": null,
+    "game": null,
+    "merchandise": {
+      "figures": {
+        "available": false,
+        "items": []
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "黄昏乙女 × アムネジア 第1巻",
+            "category": "DVD",
+            "price": 5768,
+            "image": "https://m.media-amazon.com/images/I/6163EnXkXbL._AC_SY445_.jpg",
+            "link": "https://www.amazon.co.jp/%E9%BB%84%E6%98%8F%E4%B9%99%E5%A5%B3-%C3%97-%E3%82%A2%E3%83%A0%E3%83%8D%E3%82%B8%E3%82%A2-%E7%AC%AC1%E5%B7%BB-DVD/dp/B007Q36MRO/"
+          }
+        ]
+      }
+    }
+  },
+  "6": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://www.aniplex.co.jp/lineup/angelheart/",
+        "amazon": "https://www.amazon.co.jp/gp/video/detail/B00FO1PMA8/",
+        "netflix": null
+      }
+    },
+    "movie": null,
+    "game": null,
+    "merchandise": {
+      "figures": {
+        "available": false,
+        "items": []
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "エンジェル･ハートDVD Premium BOX Vol.1 (完全限定生産)",
+            "category": "DVD",
+            "price": 15700,
+            "image": "https://m.media-amazon.com/images/I/91Hi3gRF3IL._AC_SX522_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%82%A8%E3%83%B3%E3%82%B8%E3%82%A7%E3%83%AB%EF%BD%A5%E3%83%8F%E3%83%BC%E3%83%88DVD-Premium-BOX-Vol-1-%E5%AE%8C%E5%85%A8%E9%99%90%E5%AE%9A%E7%94%9F%E7%94%A3/dp/B000EF7Z9A/"
+          }
+        ]
+      }
+    }
+  },
+  "8": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://www.lantis.jp/title/bakuman/",
+        "amazon": "https://www.amazon.co.jp/gp/video/detail/B07VG9V86B/",
+        "netflix": null
+      }
+    },
+    "movie": {
+      "available": true,
+      "links": {
+        "official": null,
+        "netflix": null
+      }
+    },
+    "game": null,
+    "merchandise": {
+      "figures": {
+        "available": false,
+        "items": []
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "バクマン。 1stシリーズ DVD-SET",
+            "category": "DVD",
+            "price": 8668,
+            "image": "https://m.media-amazon.com/images/I/81RK6SgHUsL._AC_SY445_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%83%90%E3%82%AF%E3%83%9E%E3%83%B3%E3%80%82-1st%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-DVD-SET-%E9%98%BF%E9%83%A8%E6%95%A6/dp/B011I2DUF0/"
+          }
+        ]
+      }
+    }
+  },
+  "9": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "http://www.zetman.jp/",
+        "amazon": "https://www.amazon.co.jp/gp/video/detail/B095SS2L7B/",
+        "netflix": null
+      }
+    },
+    "movie": null,
+    "game": null,
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "ZETMAN PLAY ARTS改 ZET",
+            "manufacturer": "スクウェア・エニックス",
+            "releaseDate": "2013-05-10",
+            "price": 16800,
+            "image": "https://m.media-amazon.com/images/I/41rmIiluoPL._AC_.jpg",
+            "link": "https://www.amazon.co.jp/ZETMAN-PLAY-ARTS%E6%94%B9-ZET-PVC%E5%A1%97%E8%A3%85%E6%B8%88%E3%81%BF%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2/dp/B00AH7ZBT6/"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "「ZETMAN」Vol.1 Blu-ray",
+            "category": "Blu-ray",
+            "price": 7480,
+            "image": "https://m.media-amazon.com/images/I/71jCfeqPfsL._AC_SY445_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%80%8CZETMAN%E3%80%8DVol-1-Blu-ray%E3%80%90%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%94%9F%E7%94%A3%E7%89%88%E3%80%91-%E6%B5%AA%E5%B7%9D%E5%A4%A7%E8%BC%94/dp/B007PLLCA4/"
+          }
+        ]
+      }
+    }
+  },
+  "10": {
+    "anime": null,
+    "movie": null,
+    "game": null,
+    "merchandise": {
+      "figures": null,
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "I\"s Pure 1",
+            "category": "DVD",
+            "price": 3980,
+            "image": "https://m.media-amazon.com/images/I/21dmGUE2i0L._AC_.jpg",
+            "link": "https://www.amazon.co.jp/I-s-Pure-1-DVD/dp/B000BDG2KS/"
+          }
+        ]
+      }
+    }
+  },
+  "12": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://pierrot.jp/archive/2005/tv00_28.html",
+        "netflix": null
+      }
+    },
+    "movie": null,
+    "game": null,
+    "merchandise": {
+      "figures": null,
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "テガミバチ 1期+2期 コンプリート DVD-BOX",
+            "category": "DVD",
+            "price": 12980,
+            "image": "https://m.media-amazon.com/images/I/81BCDGH5B8L._AC_SX385_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%83%86%E3%82%AC%E3%83%9F%E3%83%90%E3%83%81-%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AA%E3%83%BC%E3%83%88-DVD-BOX-1250%E5%88%86-%E5%86%8D%E7%94%9F%E7%92%B0%E5%A2%83%E3%82%92%E3%81%94%E7%A2%BA%E8%AA%8D%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84/dp/B079PTDW4P/"
+          }
+        ]
+      }
+    }
+  },
+  "14": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://www.berserk-anime.com/1/",
+        "amazon": "https://www.amazon.co.jp/%E3%83%99%E3%83%AB%E3%82%BB%E3%83%AB%E3%82%AF/dp/B0D6JQX1RH",
+        "netflix": null
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": true,
+      "links": {
+        "official": "https://www.gamecity.ne.jp/berserk-musou/",
+        "store": "https://store.playstation.com/ja-jp/product/JP0106-CUSA05816_00-SLAYERGAME000000"
+      }
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "TAMASHII NATIONS S.H.フィギュアーツ ベルセルク ガッツ(狂戦士の甲冑)",
+            "manufacturer": "BANDAI SPIRITS",
+            "price": 18900,
+            "image": "https://m.media-amazon.com/images/I/71O+wbskU8L._AC_SX679_.jpg",
+            "link": "https://www.amazon.co.jp/BANDAI-SPIRITS-%E3%83%90%E3%83%B3%E3%83%80%E3%82%A4-%E3%82%B9%E3%83%94%E3%83%AA%E3%83%83%E3%83%84-S-H-%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%83%BC%E3%83%84/dp/B0CJZY4WKX/"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "ベルセルク 1st &2nd Season",
+            "category": "Blu-ray",
+            "price": 38500,
+            "image": "https://m.media-amazon.com/images/I/816qKhMOS2L._AC_SX569_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%83%99%E3%83%AB%E3%82%BB%E3%83%AB%E3%82%AF-1st-2nd-Season-Blu-ray/dp/B07VDRH2F5/"
+          }
+        ]
+      }
+    }
+  },
+  "15": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://medalist-pr.com/",
+        "amazon": "https://www.amazon.co.jp/%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88/dp/B0DRCRP2BV",
+        "netflix": "https://www.netflix.com/jp/title/81996831"
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "メダリスト アクリルスタンド",
+            "manufacturer": "NEXIUH",
+            "price": 2344,
+            "image": "https://m.media-amazon.com/images/I/61Rej77FmVL._AC_SX679_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89-%E3%82%A2%E3%82%AF%E3%83%AA%E3%83%AB%E5%8F%B0%E5%BA%A7%E3%81%82%E3%82%8A-%E5%B1%95%E7%A4%BA%E7%94%A8%E3%83%87%E3%82%B3%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E3%82%B0%E3%83%83%E3%82%BA%E3%82%BB%E3%83%83%E3%83%88-%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%81%AE%E7%BD%AE%E7%89%A9/dp/B0F4QH9KFW/"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "メダリスト 第1巻",
+            "category": "Blu-ray",
+            "price": 13400,
+            "image": "https://m.media-amazon.com/images/I/617sW2WMiHL._AC_SX522_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88-%E7%AC%AC1%E5%B7%BB-Blu-ray-%E5%B1%B1%E6%9C%AC%E9%9D%96%E8%B2%B4/dp/B0DPMQRXR5/"
+          }
+        ]
+      }
+    }
+  },
+  "16": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://kingdom-anime.com/",
+        "amazon": "https://www.amazon.co.jp/gp/video/detail/B0CMSRV4K6/",
+        "netflix": "https://www.netflix.com/jp/title/80172949"
+      }
+    },
+    "movie": {
+      "available": true,
+      "links": {
+        "official": "https://kingdom-the-movie.jp/",
+        "amazon": "https://www.amazon.co.jp/gp/video/detail/B0DJYH8294/",
+        "netflix": "https://www.netflix.com/jp/title/81153955"
+      }
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "フィギュアーツZERO 王騎 -出陣-",
+            "manufacturer": "BANDAI",
+            "price": 27631,
+            "image": "https://m.media-amazon.com/images/I/71byqOa36HS._AC_SX679_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%83%90%E3%83%B3%E3%83%80%E3%82%A4-BANDAI-%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%E3%83%BC%E3%83%84ZERO-%E7%8E%8B%E9%A8%8E-%E5%87%BA%E9%99%A3/dp/B09K3W6MRF/"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "キングダム season1+2+3+4 完全版10枚組コンパクト BOX",
+            "category": "Blu-ray",
+            "price": 22500,
+            "image": "https://m.media-amazon.com/images/I/71fIjdyQwjL._AC_SY879_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%83%8E%E3%83%BC%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E5%93%81-%E3%83%96%E3%83%AB%E3%83%BCA-%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0-season1-%E5%AE%8C%E5%85%A8%E7%89%8810%E6%9E%9A%E7%B5%84%E3%82%B3%E3%83%B3%E3%83%91%E3%82%AF%E3%83%88/dp/B0F6Y6Z11K/"
+          }
+        ]
+      }
+    }
+  },
+  "17": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://ichigoproduction.com/",
+        "amazon": "https://www.amazon.co.jp/%E3%80%90%E6%8E%A8%E3%81%97%E3%81%AE%E5%AD%90%E3%80%91/dp/B0BZGM458J",
+        "netflix": "https://www.netflix.com/jp/title/81684733"
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "アイ Exhibition ver. 1/7",
+            "manufacturer": "KADOKAWA",
+            "price": 21800,
+            "image": "https://m.media-amazon.com/images/I/61OeSZDTpCL._AC_SY879_.jpg",
+            "link": "https://www.amazon.co.jp/%EF%BC%AB%EF%BC%A1%EF%BC%A4%EF%BC%AF%EF%BC%AB%EF%BC%A1%EF%BC%B7%EF%BC%A1-Kdcolle-%E3%80%90%E6%8E%A8%E3%81%97%E3%81%AE%E5%AD%90%E3%80%91-Exhibition-%E3%83%97%E3%83%A9%E3%82%B9%E3%83%81%E3%83%83%E3%82%AF%E8%A3%BD%E5%A1%97%E8%A3%85%E6%B8%88%E3%81%BF%E5%AE%8C%E6%88%90%E5%93%81/dp/B0F1CFB25Q/"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "推しの子 第1期 (全11話) ",
+            "category": "Blu-ray",
+            "price": 7715,
+            "image": "https://m.media-amazon.com/images/I/71Vva4Ny0ML._AC_SX342_.jpg",
+            "link": "https://www.amazon.co.jp/%E6%8E%A8%E3%81%97%E3%81%AE%E5%AD%90-%E5%85%A811%E8%A9%B1-%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AC%E3%82%A4-Blu-ray-%E3%83%AA%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3A/dp/B0D99N4QB8/"
+          }
+        ]
+      }
+    }
+  },
+  "18": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": null,
+        "amazon": "https://www.amazon.co.jp/gp/video/detail/B07C4ZZNCX/",
+        "netflix": null
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": false,
+        "items": []
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "ヒナまつり 初回生産版 ブルーレイ 全6巻",
+            "category": "Blu-ray",
+            "price": 35800,
+            "image": "https://m.media-amazon.com/images/I/81NRORk7H2L._AC_SX425_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%83%92%E3%83%8A%E3%81%BE%E3%81%A4%E3%82%8A-%E5%88%9D%E5%9B%9E%E7%94%9F%E7%94%A3%E7%89%88-%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AC%E3%82%A4-%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%E3%83%97%E3%83%AC%E3%82%A4%E3%82%B9-Blu-ray%E3%82%BB%E3%83%83%E3%83%88/dp/B0CKKG7KQ3/"
+          }
+        ]
+      }
+    }
+  },
+  "19": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://www.mbs.jp/ballroom/",
+        "amazon": "https://www.amazon.co.jp/gp/video/detail/B073R34NSW/",
+        "netflix": null
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": false,
+        "items": []
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "ボールルームへようこそ 初回限定版",
+            "category": "Blu-ray",
+            "price": 38500,
+            "image": "https://m.media-amazon.com/images/I/415xKML1CKL._AC_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%83%9C%E3%83%BC%E3%83%AB%E3%83%AB%E3%83%BC%E3%83%A0%E3%81%B8%E3%82%88%E3%81%86%E3%81%93%E3%81%9D-%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AC%E3%82%A4%E5%85%A8%E5%B7%BB%E3%82%BB%E3%83%83%E3%83%88-%E5%85%A86%E5%B7%BB%E3%82%BB%E3%83%83%E3%83%88-%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%E3%83%97%E3%83%AC%E3%82%A4%E3%82%B9-Blu-ray%E3%82%BB%E3%83%83%E3%83%88/dp/B07DYHZCSL/"
+          }
+        ]
+      }
+    }
+  },
+  "20": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://mv.avex.jp/claymore/",
+        "amazon": "https://www.amazon.co.jp/gp/video/detail/B07PG5DRPK/",
+        "netflix": null
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": false,
+        "items": []
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "CLAYMORE Blu-ray BOX",
+            "category": "Blu-ray",
+            "price": 28364,
+            "image": "https://m.media-amazon.com/images/I/51hlZe63R5L._AC_SX385_.jpg",
+            "link": "https://www.amazon.co.jp/CLAYMORE-Blu-ray-BOX-%E6%A1%91%E5%B3%B6%E6%B3%95%E5%AD%90/dp/B0095BHZRG/"
+          }
+        ]
+      }
+    }
+  },
+  "22": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://baki.ne.jp/",
+        "amazon": null,
+        "netflix": null
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "刃牙消し",
+            "manufacturer": "リンクファクトリー",
+            "price": "44000",
+            "image": "https://m.media-amazon.com/images/I/71Ufn3+YBrL._AC_SY879_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%82%B0%E3%83%A9%E3%83%83%E3%83%97%E3%83%A9%E3%83%BC%E5%88%83%E7%89%99-%E6%9C%80%E5%A4%A7%E3%83%88%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88-%E3%83%81%E3%83%A3%E3%83%B3%E3%83%94%E3%82%AA%E3%83%B3%E3%83%99%E3%83%AB%E3%83%88%E4%BB%98%E3%81%8D-Tournament-collectible/dp/B0DJGFWVG3/"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "バキ最強伝説SPECIAL DVD-BOX I グラップラー刃牙編",
+            "category": "DVD",
+            "price": 5980,
+            "image": "https://m.media-amazon.com/images/I/516P8GY193L._AC_SY445_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%83%90%E3%82%AD%E6%9C%80%E5%BC%B7%E4%BC%9D%E8%AA%ACSPECIAL-DVD-BOX-I-%E3%82%B0%E3%83%A9%E3%83%83%E3%83%97%E3%83%A9%E3%83%BC%E5%88%83%E7%89%99%E7%B7%A8-%E8%8F%8A%E6%B1%A0%E6%AD%A3%E7%BE%8E/dp/B000GBEWXE/"
+          }
+        ]
+      }
+    }
+  },
+  "23": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://ramenkoizumi-game.com/",
+        "amazon": "https://www.amazon.co.jp/gp/video/detail/B07F3RQ8V9/",
+        "netflix": null
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": false,
+        "items": []
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "「ラーメン大好き小泉さん」Blu-ray Disc 上巻",
+            "category": "Blu-ray",
+            "price": 5300,
+            "image": "https://m.media-amazon.com/images/I/717lG3fJg0L._AC_SY445_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%80%8C%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E5%A4%A7%E5%A5%BD%E3%81%8D%E5%B0%8F%E6%B3%89%E3%81%95%E3%82%93%E3%80%8DBlu-ray-Disc-%E4%B8%8A%E5%B7%BB-%E7%AB%B9%E9%81%94%E5%BD%A9%E5%A5%88/dp/B078HFSP7C/"
+          }
+        ]
+      }
+    }
+  },
+  "24": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": null,
+        "amazon": "https://www.amazon.co.jp/gp/video/detail/B07W1HC837/",
+        "netflix": "https://www.netflix.com/jp/title/80204451"
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "刃牙消し",
+            "manufacturer": "リンクファクトリー",
+            "price": "44000",
+            "image": "https://m.media-amazon.com/images/I/71Ufn3+YBrL._AC_SY879_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%82%B0%E3%83%A9%E3%83%83%E3%83%97%E3%83%A9%E3%83%BC%E5%88%83%E7%89%99-%E6%9C%80%E5%A4%A7%E3%83%88%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88-%E3%83%81%E3%83%A3%E3%83%B3%E3%83%94%E3%82%AA%E3%83%B3%E3%83%99%E3%83%AB%E3%83%88%E4%BB%98%E3%81%8D-Tournament-collectible/dp/B0DJGFWVG3/"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "バキ ブルーレイBOX vol.1",
+            "category": "Blu-ray",
+            "price": 21780,
+            "image": "https://m.media-amazon.com/images/I/71eViB5sqZL._AC_SY445_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%83%90%E3%82%AD-%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AC%E3%82%A4BOX-vol-1-Blu-ray-%E5%B3%B6%E5%B4%8E%E4%BF%A1%E9%95%B7/dp/B07GXQ5RCW/"
+          }
+        ]
+      }
+    }
+  },
+  "25": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://baki-anime.jp/",
+        "amazon": "https://www.amazon.co.jp/gp/video/detail/B0B8Q99JJG/",
+        "netflix": "https://www.netflix.com/jp/title/81236338"
+      }
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "刃牙消し",
+            "manufacturer": "リンクファクトリー",
+            "price": "44000",
+            "image": "https://m.media-amazon.com/images/I/71Ufn3+YBrL._AC_SY879_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%82%B0%E3%83%A9%E3%83%83%E3%83%97%E3%83%A9%E3%83%BC%E5%88%83%E7%89%99-%E6%9C%80%E5%A4%A7%E3%83%88%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88-%E3%83%81%E3%83%A3%E3%83%B3%E3%83%94%E3%82%AA%E3%83%B3%E3%83%99%E3%83%AB%E3%83%88%E4%BB%98%E3%81%8D-Tournament-collectible/dp/B0DJGFWVG3/"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "範馬刃牙 Blu-ray BOX",
+            "category": "Blu-ray",
+            "price": 21616,
+            "image": "https://m.media-amazon.com/images/I/71Sjv7BMrGL._AC_SY445_.jpg",
+            "link": "https://www.amazon.co.jp/%E7%AF%84%E9%A6%AC%E5%88%83%E7%89%99-Blu-ray-BOX-%E5%B3%B6%EF%A8%91%E4%BF%A1%E9%95%B7-%E5%A4%A7%E5%A1%9A%E6%98%8E%E5%A4%AB/dp/B09PVHV6S7/"
+          }
+        ]
+      }
+    }
+  },
+  "26": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://dragon-ball-official.com/",
+        "amazon": "https://www.amazon.co.jp/gp/video/detail/B07KPQVDHH/",
+        "netflix": "https://www.netflix.com/jp/title/80150793"
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": true,
+      "links": {
+        "official": "https://dbgame.bn-ent.net/",
+        "store": "https://store-jp.nintendo.com/search/?q=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB&srsltid=AfmBOooIY35mvCvJD4OiTz4XvJIUCpHGIgzm1VpTLS2OK235ZHkxh3q7"
+      }
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "バンプレスト ドラゴンボールZ G×materia THE PICCOLO",
+            "manufacturer": "バンプレスト",
+            "price": "2780",
+            "image": "https://m.media-amazon.com/images/I/51pt1z7iTaL._AC_SX679_.jpg",
+            "link": "https://www.amazon.co.jp/%E3%83%90%E3%83%B3%E3%83%97%E3%83%AC%E3%82%B9%E3%83%88-BP19590-%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ-G%C3%97materia-PICCOLO/dp/B0BHXD9ZFW/ref=sr_1_13?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=MNCPIOC3KR8J&dib=eyJ2IjoiMSJ9.1kVzPM6p2xTcGBi3T0WEsFXcXWEaH-uYIxNMp4mO4h5TjmIMmn7fiBZeLOIUQbJQo4udVsTltq4Yin0Xgenb4V0hbaZVrnc4IOGXRjBdPEpDYSffNyZJet8dsjqgQj-z4tArMucVaqXW8A_0T7__u1friKHFv12edeVnvmSTjRV3FPUnUPq7aFZ2BLc-sp0tCOKLLD6wQApp_6TT5eFeBryQuqNSutf8dedX1o8QyAf1wAyAgdVRdFBEEPMVYLOy3v-FT-8iHQJPmGrPGuIDg-BHZaaB1hRiG2BgCDAEXh4.ttKuZdn2-0vKM5GxzlnWU45mu5idZxoGTmDEOglrRNo&dib_tag=se&keywords=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ+%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2&qid=1747886376&sprefix=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABz+%E3%83%95%E3%82%A3%E3%82%AE%E3%83%A5%E3%82%A2%2Caps%2C249&sr=8-13"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "DRAGON BALL シリーズ 劇場版+TVスペシャル DVD-BOX (全20作) ドラゴンボール ",
+            "category": "DVD",
+            "price": 19800,
+            "image": "https://m.media-amazon.com/images/I/81Y-erKp-CL._AC_SX385_.jpg",
+            "link": "https://www.amazon.co.jp/DRAGON-BALL-TV%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB-DVD-BOX-%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB/dp/B00BFBKXK0/"
+          }
+        ]
+      }
+    }
+  }
+}
