@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
-import { ref, computed } from 'vue';
-import type { Manga, FilterOptions, SortOption, ScoredManga } from '@/types/manga';
+import { ref } from 'vue';
+import type { Manga, FilterOptions, SortOption } from '@/types/manga';
 
 /**
  * マンガ関連処理

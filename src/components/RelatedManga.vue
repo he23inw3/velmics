@@ -27,12 +27,6 @@ const titleFontSize = computed(() => {
   if (display.sm.value) return "0.9375rem"; // 15px
   return "1rem"; // 16px
 });
-
-const priceFontSize = computed(() => {
-  if (display.xs.value) return "1.125rem"; // 18px
-  if (display.sm.value) return "1.25rem"; // 20px
-  return "1.5rem"; // 24px
-});
 </script>
 
 <template>

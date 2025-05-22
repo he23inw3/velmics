@@ -5,7 +5,6 @@ import { useMangaStore } from '@/stores/manga';
 import { useStorageStore } from '@/stores/storage';
 import AppHeader from '@/components/AppHeader.vue';
 import AppFooter from '@/components/AppFooter.vue';
-import MangaGrid from '@/components/MangaGrid.vue';
 
 const mangaStore = useMangaStore();
 const storageStore = useStorageStore();
@@ -108,8 +107,8 @@ const clearHistory = () => {
                 <div class="history-card-content">
                   <div class="thumbnail-container">
                     <v-img
-                      :src="item.manga.coverImage"
-                      :alt="item.manga.title"
+                      :src="item?.manga.coverImage"
+                      :alt="item?.manga.title"
                       width="120"
                       aspect-ratio="3/4"
                       cover

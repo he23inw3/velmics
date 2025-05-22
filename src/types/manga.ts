@@ -21,7 +21,7 @@ export interface Manga {
   bannerImage?: string;
   affiliateLinks?: {
     amazon?: string;
-    bookWalker?: string;
+    dmm?: string;
     ebookJapan?: string;
     other?: string;
   };
@@ -30,7 +30,7 @@ export interface Manga {
       available: boolean;
       links?: {
         official?: string;
-        crunchyroll?: string;
+        amazon?: string;
         netflix?: string;
         other?: string;
       };

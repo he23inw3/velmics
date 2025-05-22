@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
+import type { SortOption } from '@/types/manga';
 import { useUIStore } from '@/stores/ui';
 
 const props = defineProps<{
@@ -35,7 +36,7 @@ const selectedSort = computed({
       option.value.direction === uiStore.sortOption.direction
     )?.value || sortOptions[0].value;
   },
-  set: (val) => {
+  set: (val: SortOption) => {
     uiStore.sortOption.field = val.field;
     uiStore.sortOption.direction = val.direction;
   }

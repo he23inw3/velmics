@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import { ref, watch } from 'vue';
+import { ref } from 'vue';
 import type { FilterOptions, SortOption, UISettings } from '@/types/manga';
 import { useLocalStorage } from '@vueuse/core';
 

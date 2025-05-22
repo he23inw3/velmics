@@ -1,14 +1,10 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import { useDisplay } from 'vuetify';
-import { useUIStore } from '@/stores/ui';
-import { useStorageStore } from '@/stores/storage';
 
 const router = useRouter();
 const display = useDisplay();
-const uiStore = useUIStore();
-const storageStore = useStorageStore();
 
 const drawer = ref(false);
 const scrolled = ref(false);

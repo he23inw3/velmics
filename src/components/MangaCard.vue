@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
 import { useRouter } from 'vue-router';
-import { useStorageStore } from '@/stores/storage';
 import type { Manga } from '@/types/manga';
 
 const props = defineProps<{
@@ -9,16 +8,10 @@ const props = defineProps<{
 }>();
 
 const router = useRouter();
-const storageStore = useStorageStore();
 const imageError = ref(false);
 
 const navigateToDetail = () => {
   router.push({ name: 'manga-detail', params: { id: props.manga.id } });
-};
-
-const toggleFavorite = (event: Event) => {
-  event.stopPropagation();
-  storageStore.toggleFavorite(props.manga.id);
 };
 
 const statusColor = computed(() => {

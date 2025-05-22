@@ -26,9 +26,9 @@ const mangaRows = computed(() => {
   for (let i = 0; i < props.mangas.length; i += itemsPerRow) {
     const row = props.mangas.slice(i, i + itemsPerRow);
     // 最後の行が不完全な場合、空のスペースを追加
-    while (row.length < itemsPerRow) {
-      row.push(null);
-    }
+    // while (row.length < itemsPerRow) {
+    //   row.push(null);
+    // }
     rows.push(row);
   }
   

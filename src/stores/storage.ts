@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import { ref, computed } from 'vue';
+import { computed } from 'vue';
 import { useLocalStorage } from '@vueuse/core';
 import type { HistoryItem, UserPreferences } from '@/types/manga';
 
