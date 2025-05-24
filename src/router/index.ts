@@ -46,6 +46,7 @@ const router = createRouter({
       }
     }
   ],
+  // @ts-ignore
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition;
@@ -55,12 +56,10 @@ const router = createRouter({
   }
 });
 
-// Update document title based on route meta
+// @ts-ignore
 router.beforeEach((to, from, next) => {
-  // Set document title
   document.title = to.meta.title ? `${to.meta.title}` : 'Velmics';
   
-  // If visiting a manga detail page, add to history
   if (to.name === 'manga-detail' && to.params.id) {
     const storageStore = useStorageStore();
     const mangaId = to.params.id as string;

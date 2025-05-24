@@ -68,7 +68,6 @@ onMounted(async () => {
   }
 });
 
-// Set metadata for SEO
 useHead(() => ({
   title: manga.value ? `${manga.value.title} | マンガコレクション` : 'マンガ詳細',
   meta: [

@@ -63,12 +63,10 @@ const displayedMangas = computed(() => {
   return sortedMangas.value.slice(start, end);
 });
 
-// Reset to first page when filters or sort changes
 watch([() => uiStore.filterOptions, () => uiStore.sortOption], () => {
   currentPage.value = 1;
 });
 
-// Reset to first page when items per page changes
 watch(() => uiStore.uiSettings.itemsPerPage, () => {
   currentPage.value = 1;
 });

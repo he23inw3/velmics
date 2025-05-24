@@ -2,18 +2,12 @@ import { defineStore } from 'pinia';
 import { ref } from 'vue';
 import type { Manga, FilterOptions, SortOption } from '@/types/manga';
 
-/**
- * マンガ関連処理
- */
 export const useMangaStore = defineStore('manga', () => {
   const mangaList = ref<Manga[]>([]);
   const mediaMixData = ref<Record<string, any>>({});
   const isLoading = ref(false);
   const error = ref<string | null>(null);
 
-  /**
-   * マンガデータ全件検索
-   */
   const fetchMangas = async () => {
     isLoading.value = true;
     error.value = null;
@@ -36,12 +30,10 @@ export const useMangaStore = defineStore('manga', () => {
         mediaMixResponse.json()
       ]);
       
-      // Sort mangas by release date before assigning to store
       const sortedMangas = [...mangas].sort((a, b) => {
         return new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime();
       });
 
-      // メディアミックス情報をマンガデータにマージ
       mangaList.value = sortedMangas.map((manga: Manga) => ({
         ...manga,
         mediaMix: mediaMix[manga.id] || manga.mediaMix
@@ -55,43 +47,28 @@ export const useMangaStore = defineStore('manga', () => {
     }
   };
 
-  /**
-   * マンガ取得
-   * @param id マンガID
-   * @returns マンガ
-   */
   const getMangaById = (id: string): Manga | undefined => {
     return mangaList.value.find(manga => manga.id === id);
   };
 
-  /**
-   * マンガフィルタリング
-   * @param options 検索オプション
-   * @returns マンガ
-   */
   const filterMangas = (options: FilterOptions): Manga[] => {
     return mangaList.value.filter(manga => {
-      // テキスト検索
       if (options.search && !matchesSearch(manga, options.search)) {
         return false;
       }
 
-      // ジャンル
       if (options.genres.length > 0 && !containsAny(manga.genres, options.genres)) {
         return false;
       }
 
-      // タグ
       if (options.tags.length > 0 && !containsAny(manga.tags, options.tags)) {
         return false;
       }
 
-      // ステータス
       if (options.status.length > 0 && !options.status.includes(manga.completionStatus)) {
         return false;
       }
 
-      // 発売年
       if (options.yearFrom || options.yearTo) {
         const releaseYear = new Date(manga.releaseDate).getFullYear();
         if (options.yearFrom && releaseYear < options.yearFrom) {
@@ -102,7 +79,6 @@ export const useMangaStore = defineStore('manga', () => {
         }
       }
 
-      // 巻数
       if (options.chaptersFrom || options.chaptersTo) {
         const chapters = manga.chapters || 0;
         if (options.chaptersFrom && chapters < options.chaptersFrom) {
@@ -113,7 +89,6 @@ export const useMangaStore = defineStore('manga', () => {
         }
       }
 
-      // 評価
       if (typeof options.minRating === 'number' && options.minRating > 0) {
         if (manga.rating < options.minRating) {
           return false;
@@ -124,12 +99,6 @@ export const useMangaStore = defineStore('manga', () => {
     });
   };
 
-  /**
-   * マンガソート
-   * @param mangas マンガ
-   * @param sortOption ソートオプション 
-   * @returns マンガ
-   */
   const sortMangas = (mangas: Manga[], sortOption: SortOption) => {
     return [...mangas].sort((a, b) => {
       let comparison = 0;
@@ -150,12 +119,6 @@ export const useMangaStore = defineStore('manga', () => {
     });
   };
 
-  /**
-   * 関連度スコアリング
-   * @param manga1 マンガ1
-   * @param manga2 マンガ2
-   * @returns スコア値
-   */
   const calculateRelationshipScore = (manga1: Manga, manga2: Manga): number => {
     let score = 0;
 
@@ -213,12 +176,6 @@ export const useMangaStore = defineStore('manga', () => {
     return scoredMangas.slice(0, 2).map(item => item.manga);
   };
 
-  /**
-   * マンガ曖昧検索
-   * @param manga マンガ
-   * @param search 検索キーワード
-   * @returns マンガの有無
-   */
   function matchesSearch(manga: Manga, search: string): boolean {
     const searchLower = search.toLowerCase();
     

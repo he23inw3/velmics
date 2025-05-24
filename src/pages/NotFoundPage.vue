@@ -3,7 +3,6 @@ import { useHead } from '@unhead/vue';
 import AppHeader from '@/components/AppHeader.vue';
 import AppFooter from '@/components/AppFooter.vue';
 
-// Set metadata for SEO
 useHead({
   title: 'Page Not Found | Manga Collection',
   meta: [
