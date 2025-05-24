@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import { createGtag } from "vue-gtag";
 import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
@@ -11,6 +12,12 @@ const app = createApp(App)
 // Set up Pinia for state management
 const pinia = createPinia()
 app.use(pinia)
+
+// Initialize and use Gtag
+const gtag = createGtag({
+  tagId: import.meta.env.VUE_APP_GTAG_ID
+})
+app.use(gtag)
 
 // Initialize and use Vue Router
 app.use(router)
