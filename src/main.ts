@@ -14,9 +14,8 @@ const pinia = createPinia()
 app.use(pinia)
 
 // Initialize and use Gtag
-console.log(import.meta.env.VUE_APP_GTAG_ID)
 const gtag = createGtag({
-  tagId: import.meta.env.VUE_APP_GTAG_ID,
+  tagId: import.meta.env.VITE_GTAG_ID,
   pageTracker: {
     router,
     useRouteFullPath: true

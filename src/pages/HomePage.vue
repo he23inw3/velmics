@@ -13,7 +13,6 @@ import AnnouncementBar from '@/components/AnnouncementBar.vue';
 
 const mangaStore = useMangaStore();
 const uiStore = useUIStore();
-console.log(uiStore.uiSettings.itemsPerPage)
 const currentPage = ref(1);
 
 useHead({
