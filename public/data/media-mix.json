@@ -734,5 +734,204 @@
         ]
       }
     }
+  },
+  "27": {
+    "anime": {
+      "available": true,
+      "links": {
+        "amazon": "https://amzn.to/3YVrATt",
+        "netflix": "https://www.netflix.com/jp/title/80995578"
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": true,
+      "links": {
+        "official": "https://ippo-fightingsouls.jp/"
+      }
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "オルカトイズ はじめの一歩 幕之内一歩",
+            "manufacturer": "オルカトイズ(OrcaToys)",
+            "price": 38800,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/312K7YwYdkL._AC_SY450_.jpg",
+            "link": "https://amzn.to/4dwNPVD"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "はじめの一歩 Rising Blu-ray BOX partI",
+            "category": "Blu-ray",
+            "price": 19800,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/91OBO+r96vL._AC_SX522_.jpg",
+            "link": "https://amzn.to/4jlPGOl"
+          }
+        ]
+      }
+    }
+  },
+  "28": {
+    "anime": {
+      "available": true,
+      "links": {
+        "amazon": "https://amzn.to/43nxBLr"
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": false,
+        "items": []
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "ロザリオとバンパイア Blu-ray BOX",
+            "category": "Blu-ray",
+            "price": 34400,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/91DCHziKxnL._AC_SX342_.jpg",
+            "link": "https://amzn.to/4kzrv07"
+          }
+        ]
+      }
+    }
+  },
+  "29": {
+    "anime": {
+      "available": true,
+      "links": {
+        "amazon": "https://amzn.to/4kbfgqQ"
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": false,
+        "items": []
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "ロザリオとバンパイアCAPU2 Blu-ray BOX",
+            "category": "Blu-ray",
+            "price": 39000,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/61eYfTJ4+zL._AC_SX342_.jpg",
+            "link": "https://amzn.to/3ZslUk0"
+          }
+        ]
+      }
+    }
+  },
+  "30": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://naruto-official.com/",
+        "amazon": "https://amzn.to/45qNP7D",
+        "netflix": "https://www.netflix.com/jp/title/70205012"
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "TAMASHII NATIONS フィギュアーツZERO NARUTO-ナルト- うずまきナルト -NARUTO 72 series",
+            "manufacturer": "TAMASHII NATIONS",
+            "price": 20000,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/81Moz-qQpmL._AC_SX425_.jpg",
+            "link": "https://amzn.to/4dwLcU3"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "NARUTO-ナルト- DVD-BOX I 参上!うずまきナルト",
+            "category": "DVD",
+            "price": 4430,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/81OhcBN4BML._AC_SX342_.jpg",
+            "link": "https://amzn.to/3SmLgMl"
+          }
+        ]
+      }
+    }
+  },
+  "31": {
+    "anime": {
+      "available": true,
+      "links": {
+        "amazon": "https://amzn.to/4k8ofZA"
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "金色の闇 ノンスケール フィギュア高さ約18cm",
+            "manufacturer": "REENEW",
+            "price": 4200,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/61JF8+dm8KL._AC_SX569_.jpg",
+            "link": "https://amzn.to/4mKgz1E"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "To LOVEる-とらぶる-ダークネス まとめ見Blu-ray",
+            "category": "Blu-ray",
+            "price": 10780,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/71-TQ5NTobL._AC_SX342_.jpg",
+            "link": "https://amzn.to/44TcKRk"
+          }
+        ]
+      }
+    }
   }
 }
