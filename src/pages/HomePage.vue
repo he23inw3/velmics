@@ -63,12 +63,18 @@ const displayedMangas = computed(() => {
   return sortedMangas.value.slice(start, end);
 });
 
-watch([() => uiStore.filterOptions, () => uiStore.sortOption], () => {
+watch([
+  () => uiStore.filterOptions,
+  () => uiStore.sortOption,
+  () => uiStore.uiSettings.itemsPerPage
+], () => {
   currentPage.value = 1;
-});
+}, { deep: true });
 
-watch(() => uiStore.uiSettings.itemsPerPage, () => {
-  currentPage.value = 1;
+watch(totalPages, (newTotalPages) => {
+  if (currentPage.value > newTotalPages) {
+    currentPage.value = Math.max(1, newTotalPages);
+  }
 });
 </script>
 
