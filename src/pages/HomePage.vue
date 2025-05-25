@@ -17,7 +17,7 @@ const currentPage = ref(1);
 
 const StaticContent = {
   title: 'Vestia',
-  description: '日本と世界中の素晴らしいマンガをご紹介します。絞り込み機能を使って、あなたにぴったりの作品を見つけましょう！'
+  description: '素晴らしいマンガをご紹介します。'
 };
 
 useHead({
