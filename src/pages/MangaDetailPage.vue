@@ -246,7 +246,6 @@ useHead(() => ({
             </v-card-title>
             <hr />
             <v-card-text class="text-body-1">
-              <!-- {{ manga.description }} -->
               <div v-html="parsedDescrionValue"></div>
             </v-card-text>
           </v-card>
@@ -314,10 +313,6 @@ useHead(() => ({
   background-attachment: fixed;
 }
 
-.h-100 {
-  height: 100%;
-}
-
 .tag-section {
   display: flex;
   flex-direction: column;
@@ -346,36 +341,6 @@ useHead(() => ({
 .tag-chip {
   font-size: 0.875rem !important;
   height: 32px !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.02em !important;
-}
-
-.info-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 24px;
-}
-
-.info-item {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.info-label {
-  font-size: 0.875rem;
-  color: rgba(255, 255, 255, 0.7);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.info-value {
-  font-size: 1.125rem;
-  font-weight: 500;
-}
-
-.status-chip {
-  width: fit-content;
   font-weight: 500 !important;
   letter-spacing: 0.02em !important;
 }
@@ -416,41 +381,6 @@ useHead(() => ({
 .dmm-btn {
   background-color: #fff !important;
   color: #000 !important;
-}
-
-.streaming-services {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  padding: 16px;
-}
-
-.streaming-btn {
-  border-radius: 8px !important;
-  transition: transform 0.2s ease !important;
-}
-
-.streaming-btn:hover {
-  transform: translateY(-2px) !important;
-}
-
-.crunchyroll-btn {
-  background-color: #F47521 !important;
-  color: white !important;
-}
-
-.netflix-btn {
-  background-color: #E50914 !important;
-  color: white !important;
-}
-
-.official-btn {
-  background-color: #6200EA !important;
-  color: white !important;
-}
-
-.related-manga-grid {
-  padding: 24px;
 }
 
 :deep(.editorial-review) {
