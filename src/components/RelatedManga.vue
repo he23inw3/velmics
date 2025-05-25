@@ -164,17 +164,6 @@ const titleFontSize = computed(() => {
   word-break: break-all;
 }
 
-.price-info {
-  display: flex;
-  align-items: baseline;
-  gap: 2px;
-}
-
-.currency {
-  font-size: 0.75em;
-  color: rgba(0, 0, 0, 0.6);
-}
-
 .rating-count {
   font-size: 0.75rem;
   color: rgba(0, 0, 0, 0.6);
