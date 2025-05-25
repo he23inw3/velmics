@@ -933,5 +933,179 @@
         ]
       }
     }
+  },
+  "32": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "http://gundam-tb.net/",
+        "amazon": "https://amzn.to/4mwFUvC"
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "機動戦士ガンダム サンダーボルト フルアーマー・ガンダム Ver.Ka",
+            "manufacturer": "BANDAI SPIRITS",
+            "price": 14800,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/71uisvaVFiL._AC_SX569_.jpg",
+            "link": "https://amzn.to/4dDDwiY"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "機動戦士ガンダム サンダーボルト DECEMBER SKY (メーカー特典なし) [Blu-ray]",
+            "category": "Blu-ray",
+            "price": 7480,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/71-p-UbAgAL._AC_SX342_.jpg",
+            "link": "https://amzn.to/4dxAb4T"
+          }
+        ]
+      }
+    }
+  },
+  "33": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "http://www.gundam-the-origin.net/",
+        "amazon": "https://amzn.to/3SkFpqL"
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "HG 機動戦士ガンダム THE ORIGIN シャア専用ザクII",
+            "manufacturer": "BANDAI SPIRITS",
+            "price": 4180,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/71qBJ+mE85L._AC_SX679_.jpg",
+            "link": "https://amzn.to/44U8KQu"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "機動戦士ガンダムオリジンBlu-ray全巻セット",
+            "category": "Blu-ray",
+            "price": 29000,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/618m901glmS._AC_SX425_.jpg",
+            "link": "https://amzn.to/44Uw0h8"
+          }
+        ]
+      }
+    }
+  },
+  "34": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://shingeki.tv/news/",
+        "amazon": "https://amzn.to/3HcxABm",
+        "netflix": "https://www.netflix.com/jp/title/70299043"
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "バンプレスト 進撃の巨人 The Final Season Levi Special リヴァイ",
+            "manufacturer": "バンプレスト",
+            "price": 5500,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/61vqlTVFLXL._AC_SY679_.jpg",
+            "link": "https://amzn.to/3H64m7b"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "TVアニメ「進撃の巨人」Season1 Blu-ray BOX",
+            "category": "Blu-ray",
+            "price": 38500,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/71y7am3WPlL._AC_SX522_.jpg",
+            "link": "https://amzn.to/4jldQZo"
+          }
+        ]
+      }
+    }
+  },
+  "35": {
+    "anime": {
+      "available": true,
+      "links": {
+        "official": "https://www.evangelion.jp/",
+        "amazon": "https://amzn.to/43JFJFU",
+        "netflix": "https://www.netflix.com/jp/title/81033445"
+      }
+    },
+    "movie": {
+      "available": false,
+      "links": null
+    },
+    "game": {
+      "available": false,
+      "links": null
+    },
+    "merchandise": {
+      "figures": {
+        "available": true,
+        "items": [
+          {
+            "name": "KDcolle 【愛蔵版】新世紀エヴァンゲリオン 惣流 アスカ ラングレー ",
+            "manufacturer": "KADOKAWA",
+            "price": 19176,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/51u2tIZokAL._AC_SY879_.jpg",
+            "link": "https://amzn.to/3ZBFQRt"
+          }
+        ]
+      },
+      "other": {
+        "available": true,
+        "items": [
+          {
+            "name": "新世紀エヴァンゲリオン Blu-ray STANDARD EDITION Vol.1",
+            "category": "Blu-ray",
+            "price": 4180,
+            "image": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T1/images/I/71Or7sRjgSL._AC_SX342_.jpg",
+            "link": "https://amzn.to/3H9LRyA"
+          }
+        ]
+      }
+    }
   }
 }
