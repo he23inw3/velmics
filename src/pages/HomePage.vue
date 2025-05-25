@@ -15,6 +15,11 @@ const mangaStore = useMangaStore();
 const uiStore = useUIStore();
 const currentPage = ref(1);
 
+const StaticContent = {
+  title: 'Vestia',
+  description: '日本と世界中の素晴らしいマンガをご紹介します。絞り込み機能を使って、あなたにぴったりの作品を見つけましょう！'
+};
+
 useHead({
   title: 'Velmics - 素晴らしいマンガを見つけよう',
   meta: [
@@ -65,7 +70,7 @@ const displayedMangas = computed(() => {
 
 watch([() => uiStore.filterOptions, () => uiStore.sortOption], () => {
   currentPage.value = 1;
-});
+}, { deep: true });
 
 watch(() => uiStore.uiSettings.itemsPerPage, () => {
   currentPage.value = 1;
@@ -81,15 +86,12 @@ watch(() => uiStore.uiSettings.itemsPerPage, () => {
         <AnnouncementBar />
         
         <v-card class="mb-6" variant="outlined">
-          <v-card-title class="text-center brand-logo text-h4 py-4 font-weight-bold primary--text">
-            Velmics
+          <v-card-title class="text-center brand-logo text-h4 py-4 font-weight-bold primary--text" v-once>
+            {{ StaticContent.title }}
           </v-card-title>
           <v-card-text class="text-center pb-4">
-            <p class="text-body-1">
-              私が読んで面白かったマンガを紹介します。
-            </p>
-            <p class="text-body-2">
-              各記事の内容は参考程度に受け止めてもらえると助かります。
+            <p class="text-body-1" v-once>
+              {{ StaticContent.description }}
             </p>
           </v-card-text>
         </v-card>
