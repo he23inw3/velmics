@@ -116,7 +116,16 @@ const clearFilters = () => {
               bg-color="surface"
               color="primary"
               class="search-field"
-            ></v-text-field>
+              role="searchbox"
+              aria-label="マンガを検索"
+              aria-describedby="search-description"
+            >
+              <template v-slot:details>
+                <span id="search-description" class="visually-hidden">
+                  タイトル、作者名、出版社名で検索できます
+                </span>
+              </template>
+            </v-text-field>
           </v-col>
           
           <v-col cols="12" md="4" class="d-flex align-center">
