@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
+import { computed, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { useHead } from '@unhead/vue';
 import { marked } from 'marked';
@@ -7,7 +7,6 @@ import { useMangaStore } from '@/stores/manga';
 import { useStorageStore } from '@/stores/storage';
 import AppHeader from '@/components/AppHeader.vue';
 import AppFooter from '@/components/AppFooter.vue';
-import MangaGrid from '@/components/MangaGrid.vue';
 import MediaMixSection from '@/components/MediaMixSection.vue';
 import RelatedManga from '@/components/RelatedManga.vue';
 
