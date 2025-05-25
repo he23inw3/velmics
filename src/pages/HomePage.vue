@@ -16,15 +16,15 @@ const uiStore = useUIStore();
 const currentPage = ref(1);
 
 useHead({
-  title: 'マンガコレクション - 素晴らしいマンガを見つけよう',
+  title: 'Velmics - 素晴らしいマンガを見つけよう',
   meta: [
     {
       name: 'description',
-      content: '日本と世界中の最高のマンガを発見しましょう。新作情報をチェックし、お気に入りを管理できます。'
+      content: '最高の漫画を発見しましょう。'
     },
     {
       name: 'keywords',
-      content: 'マンガ, コミック, アニメ, 日本のマンガ, マンガコレクション, マンガおすすめ'
+      content: 'マンガ, 漫画, コミック, アニメ, 日本のマンガ, マンガコレクション, マンガおすすめ'
     }
   ]
 });
@@ -90,9 +90,6 @@ watch(() => uiStore.uiSettings.itemsPerPage, () => {
             </p>
             <p class="text-body-2">
               各記事の内容は参考程度に受け止めてもらえると助かります。
-            </p>
-            <p class="text-body-3">
-              返金手続き等は全て各販売サイトから行うようお願いいたします。
             </p>
           </v-card-text>
         </v-card>
