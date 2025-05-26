@@ -4,38 +4,22 @@ import { computed } from 'vue';
 const props = defineProps<{
   currentPage: number;
   totalPages: number;
-  maxVisiblePages?: number;
 }>();
 
 const emit = defineEmits<{
   (e: 'update:currentPage', page: number): void;
 }>();
 
-const maxVisible = props.maxVisiblePages || 5;
-
 const visiblePages = computed(() => {
   const pages: (number | string)[] = [];
-  const halfVisible = Math.floor(maxVisible / 2);
   
-  let start = Math.max(1, props.currentPage - halfVisible);
-  let end = Math.min(props.totalPages, start + maxVisible - 1);
-  
-  if (end - start + 1 < maxVisible) {
-    start = Math.max(1, end - maxVisible + 1);
-  }
-  
-  if (start > 1) {
-    pages.push(1);
-    if (start > 2) pages.push('...');
-  }
-  
-  for (let i = start; i <= end; i++) {
-    pages.push(i);
-  }
-  
-  if (end < props.totalPages) {
-    if (end < props.totalPages - 1) pages.push('...');
-    pages.push(props.totalPages);
+  // すべてのページを表示
+  for (let i = 1; i <= props.totalPages; i++) {
+    if (i === 1 || i === props.totalPages || Math.abs(i - props.currentPage) <= 1) {
+      pages.push(i);
+    } else if (pages[pages.length - 1] !== '...') {
+      pages.push('...');
+    }
   }
   
   return pages;
@@ -46,38 +30,48 @@ const goToPage = (page: number | string) => {
     emit('update:currentPage', page);
   }
 };
+
+const isCurrentPage = (page: number | string) => {
+  return page === props.currentPage;
+};
+
+const isEllipsis = (page: number | string) => {
+  return page === '...';
+};
 </script>
 
 <template>
-  <div class="d-flex flex-column align-center my-4">
-    <div class="d-flex align-center">
+  <nav aria-label="ページナビゲーション" class="pagination">
+    <div class="pagination-container">
       <v-btn
         variant="outlined"
         :disabled="currentPage === 1"
         @click="goToPage(currentPage - 1)"
-        class="mr-2 pagination-nav-btn"
+        class="nav-btn"
         size="small"
         color="primary"
         aria-label="前のページへ"
       >
-        <v-icon start>fas fa-angle-double-left</v-icon>
-        < 前へ
+        <v-icon start>fas fa-angle-left</v-icon>
+        前へ
       </v-btn>
       
-      <div class="d-flex" role="navigation" aria-label="ページネーション">
+      <div class="page-numbers" role="group" aria-label="ページ番号">
         <v-btn
           v-for="page in visiblePages"
           :key="page"
-          :color="page === currentPage ? 'primary' : undefined"
-          :variant="page === currentPage ? 'flat' : 'outlined'"
-          :disabled="page === '...'"
-          @click="goToPage(page)"
-          class="mx-1"
+          :variant="isCurrentPage(page) ? 'flat' : 'outlined'"
+          :color="isCurrentPage(page) ? 'primary' : undefined"
+          :disabled="isCurrentPage(page) || isEllipsis(page)"
           size="small"
-          min-width="36"
-          height="36"
-          :aria-label="`${page}ページ目${page === currentPage ? '（現在のページ）' : ''}`"
-          :aria-current="page === currentPage ? 'page' : undefined"
+          class="page-button"
+          :class="{
+            'current': isCurrentPage(page),
+            'ellipsis': isEllipsis(page)
+          }"
+          @click="goToPage(page)"
+          :aria-current="isCurrentPage(page) ? 'page' : undefined"
+          :aria-label="isEllipsis(page) ? '省略されたページ' : `${page}ページへ`"
         >
           {{ page }}
         </v-btn>
@@ -87,90 +81,87 @@ const goToPage = (page: number | string) => {
         variant="outlined"
         :disabled="currentPage === totalPages"
         @click="goToPage(currentPage + 1)"
-        class="ml-2 pagination-nav-btn"
+        class="nav-btn"
         size="small"
         color="primary"
         aria-label="次のページへ"
       >
-        次へ >
-        <v-icon end>fas fa-angle-double-right</v-icon>
+        次へ
+        <v-icon end>fas fa-angle-right</v-icon>
       </v-btn>
     </div>
     
-    <div 
-      class="pagination-info mt-2"
-      aria-live="polite"
-      role="status"
-    >
-      <span class="current-page">{{ currentPage }}</span>
-      <span class="page-separator">/</span>
-      <span class="total-pages">{{ totalPages }}</span>
-      <span class="visually-hidden">ページ</span>
+    <div class="page-info" aria-live="polite" role="status">
+      {{ currentPage }} / {{ totalPages }} ページ
     </div>
-  </div>
+  </nav>
 </template>
 
 <style scoped>
-.v-btn {
+.pagination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.page-numbers {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin: 0 0.5rem;
+}
+
+.page-button {
+  min-width: 36px !important;
+  width: 36px;
   height: 36px !important;
+  padding: 0 !important;
 }
 
-.v-btn--disabled {
-  opacity: 0.5;
-}
-
-.pagination-nav-btn {
-  min-width: 90px !important;
-}
-
-.v-icon {
-  font-size: 1rem;
-}
-
-.pagination-info {
-  color: rgba(0, 0, 0, 0.87);
-  font-size: 0.875rem;
+.page-button.current {
   font-weight: 500;
 }
 
-.current-page {
-  color: var(--v-primary-base);
-  font-weight: 600;
+.page-button.ellipsis {
+  border: none !important;
+  background: none !important;
+  color: var(--v-grey-base) !important;
+  cursor: default;
 }
 
-.page-separator {
-  margin: 0 4px;
-  color: rgba(0, 0, 0, 0.6);
+.nav-btn {
+  min-width: 80px;
 }
 
-.total-pages {
-  color: rgba(0, 0, 0, 0.87);
+.page-info {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--v-grey-darken-1);
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
-/* Dark theme support */
-:deep(.v-theme--dark) {
-  .pagination-info {
-    color: rgba(255, 255, 255, 0.87);
+@media (max-width: 600px) {
+  .nav-btn {
+    min-width: 60px;
+    font-size: 0.875rem;
   }
   
-  .page-separator {
-    color: rgba(255, 255, 255, 0.6);
+  .page-button {
+    min-width: 32px !important;
+    width: 32px;
+    height: 32px !important;
+    font-size: 0.875rem;
   }
   
-  .total-pages {
-    color: rgba(255, 255, 255, 0.87);
+  .page-numbers {
+    gap: 0.125rem;
   }
 }
 </style>
